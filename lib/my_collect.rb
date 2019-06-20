@@ -6,7 +6,7 @@ def my_collect(empty_array)
     collection << yield(empty_array[1])
          i += 1
     end
-    collection
+    collection.upcase
 end
 
 # def hello(array)
